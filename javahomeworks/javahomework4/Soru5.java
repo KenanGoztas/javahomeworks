@@ -15,6 +15,7 @@ public class Soru5 {
 		- Sifre bosluk icermemeli 
 		- Sifre uzunlugu en az 8 karakter olmali
 		*/
+		
 		System.out.println("Lütfen ilk harfi büyük, son harfi küçük, 8 karakterden oluşan bir şifre giriniz");
 		while(true) {
 		Scanner input = new Scanner(System.in);

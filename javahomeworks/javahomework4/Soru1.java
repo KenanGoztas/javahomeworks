@@ -7,6 +7,7 @@ public class Soru1 {
          * Soru 1) String methodlarini kullanarak “ Java ogrenmek123 Cok guzel@ ”  string
         ifadesini “Java ogrenmek cok guzel.” sekline getirin
          */
+		
         String str1 = " Java ogrenmek123 Cok guzel@ ";
         String str2= str1.replaceAll("\\d", ""); //regex ile rakamları çıkardım.
         System.out.println(str2);
@@ -14,11 +15,6 @@ public class Soru1 {
         System.out.println(str3);
         String str4= str3.substring(0, str3.length()-1);//substring ile son harfe kadar olan kısmı aldım
         System.out.println(str4);
-
-
-
-
-
 
     }
 }
